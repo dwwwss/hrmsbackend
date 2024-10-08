@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/hrmsbackendapi/apis/hrmsbackend",
+      "type": "apis.azure"
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/hrmsbackend20240124200408/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDB_023219886E",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dbuser/databases/hrmscopydb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DB",
+      "dynamicId": null
+    }
+  }
+}
